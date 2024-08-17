@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "redirects"
+version = "0.1.0"
+description = ""
+authors = ["Natanael dos Santos Feitosa <natansantosapps@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lespy = "^0.1.2"
+pyfunctools = "^0.7.0"
+gunicorn = "^23.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
